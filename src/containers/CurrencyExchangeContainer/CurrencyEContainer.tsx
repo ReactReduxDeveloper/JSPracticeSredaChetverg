@@ -52,7 +52,7 @@ const CurrencyEContainer: React.FC<TProps> = props => {
         }
     };
     const changeAction = (e: React.MouseEvent<HTMLSpanElement>) => {
-        e.currentTarget.dataset.action === 'buy' ? setAction(true) : setAction(false);
+        e.currentTarget.dataset.action === 'buy?' ? setAction(true) : setAction(false);
     };
 
     const changeCurrentCurrency = (e: React.MouseEvent<HTMLLIElement>) => {
